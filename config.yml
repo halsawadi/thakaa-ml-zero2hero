@@ -1,0 +1,32 @@
+---
+saudi_arabia_used_cars_dataset :
+  data_dirname : "data" 
+  filename : "UsedCarsSA_Unclean_EN"
+  format : "CSV"
+  columns :
+    - Make
+    - Year
+    - Color
+    - Options
+    - Engine_Size
+    - Fuel_Type
+    - Mileage
+    - Price
+    - Negotiable
+    - Type
+  negotiable :
+    negotiable_column_name : "Negotiable"
+  fuel_type :
+    fuel_type_column_name : "Fuel_Type"
+    lower_some_value_names: 
+      - Gas
+    lower_some_values_portion : 0.5
+  make :
+    column_name : "Make"
+    car_makers:
+      - "Ford"
+      - "GMC"
+  missing_values:
+    
+    
+
