@@ -8,7 +8,6 @@ saudi_arabia_used_cars_dataset :
     - Year
     - Color
     - Options
-    - Engine_Size
     - Fuel_Type
     - Mileage
     - Price
@@ -25,7 +24,6 @@ saudi_arabia_used_cars_dataset :
     column_name : "Make"
     car_makers:
       - "Ford"
-      - "GMC"
   missing_values:
     
     
