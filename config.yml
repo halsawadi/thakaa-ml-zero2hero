@@ -2,7 +2,7 @@
 saudi_arabia_used_cars_dataset :
   data_dirname : "data" 
   filename : "UsedCarsSA_Unclean_EN"
-  format : "csc"
+  format : "csv"
   columns :
     - Make
     - Year
