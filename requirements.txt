@@ -8,3 +8,5 @@ skl2onnx
 onnxruntime
 pydot
 fastapi
+toml
+uvicorn
