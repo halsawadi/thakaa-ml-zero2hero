@@ -7,3 +7,4 @@ pyyaml
 skl2onnx
 onnxruntime
 pydot
+uvicorn
