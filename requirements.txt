@@ -4,3 +4,5 @@ matplotlib
 seaborn
 scikit-learn
 pyyaml
+skl2onnx
+onnxruntime
