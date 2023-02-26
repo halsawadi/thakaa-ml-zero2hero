@@ -146,6 +146,7 @@ class SaudiArabiaUsedCarsDatasetProcessor:
 
     def convert_price_from_str_to_int(self, df):
         df['Price'] = df.Price.apply(int)
+        df = df[df['Price'] < 700000].reset_index(drop=True)
         return df
 
 
